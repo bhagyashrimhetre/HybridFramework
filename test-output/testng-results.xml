@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7904" started-at="2022-08-20T07:54:50Z" finished-at="2022-08-20T07:54:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7904" started-at="2022-08-20T07:54:50Z" finished-at="2022-08-20T07:54:58Z">
+      <class name="com.Vtiger.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Vtiger.tests.LoginTest@4fe767f3]" name="setup" is-config="true" duration-ms="7074" started-at="2022-08-20T07:54:43Z" finished-at="2022-08-20T07:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_login_with_invalid_credentials_TC01()[pri:0, instance:com.Vtiger.tests.LoginTest@4fe767f3]" name="verify_login_with_invalid_credentials_TC01" duration-ms="4474" started-at="2022-08-20T07:54:50Z" finished-at="2022-08-20T07:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_with_invalid_credentials_TC01 -->
+        <test-method status="PASS" signature="verify_login_with_valid_credentials_TC02()[pri:0, instance:com.Vtiger.tests.LoginTest@4fe767f3]" name="verify_login_with_valid_credentials_TC02" duration-ms="3360" started-at="2022-08-20T07:54:54Z" finished-at="2022-08-20T07:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_with_valid_credentials_TC02 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.Vtiger.tests.LoginTest@4fe767f3]" name="closeApp" is-config="true" duration-ms="1008" started-at="2022-08-20T07:54:58Z" finished-at="2022-08-20T07:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.Vtiger.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
